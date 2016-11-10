@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CardViewController: UIViewController {
 
+
+    @IBOutlet weak var draggableImageView: DraggableImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        draggableImageView.image = UIImage(named: "ryan")
     }
 
     override func didReceiveMemoryWarning() {

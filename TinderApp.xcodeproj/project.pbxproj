@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		97316CFE1DD41C58002BB8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97316CFD1DD41C58002BB8D0 /* AppDelegate.swift */; };
-		97316D001DD41C58002BB8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97316CFF1DD41C58002BB8D0 /* ViewController.swift */; };
+		97316D001DD41C58002BB8D0 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97316CFF1DD41C58002BB8D0 /* CardViewController.swift */; };
 		97316D031DD41C58002BB8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97316D011DD41C58002BB8D0 /* Main.storyboard */; };
 		97316D051DD41C58002BB8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97316D041DD41C58002BB8D0 /* Assets.xcassets */; };
 		97316D081DD41C58002BB8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97316D061DD41C58002BB8D0 /* LaunchScreen.storyboard */; };
@@ -18,6 +18,8 @@
 		97316D301DD41C7A002BB8D0 /* nav_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97316D2C1DD41C7A002BB8D0 /* nav_bar@2x.png */; };
 		97316D311DD41C7A002BB8D0 /* nav_bar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97316D2D1DD41C7A002BB8D0 /* nav_bar2@2x.png */; };
 		97316D321DD41C7A002BB8D0 /* ryan.png in Resources */ = {isa = PBXBuildFile; fileRef = 97316D2E1DD41C7A002BB8D0 /* ryan.png */; };
+		97B751A61DD536D2007CFDFA /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B751A51DD536D2007CFDFA /* DraggableImageView.xib */; };
+		97B751A81DD5371A007CFDFA /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B751A71DD5371A007CFDFA /* DraggableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 /* Begin PBXFileReference section */
 		97316CFA1DD41C58002BB8D0 /* TinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97316CFD1DD41C58002BB8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97316CFF1DD41C58002BB8D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97316CFF1DD41C58002BB8D0 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		97316D021DD41C58002BB8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97316D041DD41C58002BB8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97316D071DD41C58002BB8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		97316D2C1DD41C7A002BB8D0 /* nav_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_bar@2x.png"; path = "../../../Downloads/Tinder Assets/nav_bar@2x.png"; sourceTree = "<group>"; };
 		97316D2D1DD41C7A002BB8D0 /* nav_bar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nav_bar2@2x.png"; path = "../../../Downloads/Tinder Assets/nav_bar2@2x.png"; sourceTree = "<group>"; };
 		97316D2E1DD41C7A002BB8D0 /* ryan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ryan.png; path = "../../../Downloads/Tinder Assets/ryan.png"; sourceTree = "<group>"; };
+		97B751A51DD536D2007CFDFA /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
+		97B751A71DD5371A007CFDFA /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +109,18 @@
 		97316CFC1DD41C58002BB8D0 /* TinderApp */ = {
 			isa = PBXGroup;
 			children = (
+				97B751A51DD536D2007CFDFA /* DraggableImageView.xib */,
 				97316CFD1DD41C58002BB8D0 /* AppDelegate.swift */,
-				97316CFF1DD41C58002BB8D0 /* ViewController.swift */,
+				97316CFF1DD41C58002BB8D0 /* CardViewController.swift */,
 				97316D011DD41C58002BB8D0 /* Main.storyboard */,
 				97316D041DD41C58002BB8D0 /* Assets.xcassets */,
 				97316D2B1DD41C7A002BB8D0 /* action_buttons@2x.png */,
+				97316D2E1DD41C7A002BB8D0 /* ryan.png */,
 				97316D2C1DD41C7A002BB8D0 /* nav_bar@2x.png */,
 				97316D2D1DD41C7A002BB8D0 /* nav_bar2@2x.png */,
-				97316D2E1DD41C7A002BB8D0 /* ryan.png */,
 				97316D061DD41C58002BB8D0 /* LaunchScreen.storyboard */,
 				97316D091DD41C58002BB8D0 /* Info.plist */,
+				97B751A71DD5371A007CFDFA /* DraggableImageView.swift */,
 			);
 			path = TinderApp;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 				97316D051DD41C58002BB8D0 /* Assets.xcassets in Resources */,
 				97316D2F1DD41C7A002BB8D0 /* action_buttons@2x.png in Resources */,
 				97316D031DD41C58002BB8D0 /* Main.storyboard in Resources */,
+				97B751A61DD536D2007CFDFA /* DraggableImageView.xib in Resources */,
 				97316D301DD41C7A002BB8D0 /* nav_bar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97316D001DD41C58002BB8D0 /* ViewController.swift in Sources */,
+				97316D001DD41C58002BB8D0 /* CardViewController.swift in Sources */,
+				97B751A81DD5371A007CFDFA /* DraggableImageView.swift in Sources */,
 				97316CFE1DD41C58002BB8D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +527,7 @@
 				97316D241DD41C58002BB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97316D251DD41C58002BB8D0 /* Build configuration list for PBXNativeTarget "TinderAppTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +536,7 @@
 				97316D271DD41C58002BB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97316D281DD41C58002BB8D0 /* Build configuration list for PBXNativeTarget "TinderAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +545,7 @@
 				97316D2A1DD41C58002BB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
